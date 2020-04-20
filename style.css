@@ -1,0 +1,222 @@
+/*Обнуление*/
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+*, *:before, *:after {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+:focus, :active {
+    outline: none;
+}
+
+a:focus, a:active {
+    outline: none;
+}
+
+nav, footer, header, aside {
+    display: block;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+    font-size: 100%;
+    line-height: 1;
+    font-size: 14px;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+
+input, button, textarea {
+    font-family: inherit;
+}
+
+input::-ms-clear {
+    display: none;
+}
+
+button {
+    cursor: pointer;
+}
+
+button::-moz-focus-inner {
+    padding: 0;
+    border: 0;
+}
+
+a, a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+ul li {
+    list-style: none;
+}
+
+img {
+    vertical-align: top;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-size: inherit;
+    font-weight: inherit;
+}
+
+/*--------------------*/
+
+body {
+    background-color: #e8e8e8;
+    background: url(images/Ellipse_1_copy.png) 50% 130px no-repeat;
+}
+
+.main_contant {
+    padding: 168px 0 137px 0;
+    max-width: 841px;
+    margin: 0 auto;
+}
+
+.header {
+    text-align: center;
+    margin-bottom: 77px;
+}
+
+.header_top {
+
+
+    opacity: 0.6;
+    color: #273d46;
+    font-family: "Arial MT";
+    font-size: 14px;
+
+
+    text-transform: uppercase;
+    letter-spacing: 2.8px;
+}
+
+.header_content {
+
+    color: #273d46;
+    font-family: "Times New Roman PSMT";
+    font-size: 36px;
+    line-height: 50px;
+    max-width: 725px;
+    margin: 0 auto;
+}
+
+
+.content_img {
+}
+
+.img_item {
+    box-shadow: 0 15px 65px rgba(15, 16, 16, 0.15);
+    background-color: #fff;
+    padding: 10px;
+    margin: 0px 0px 85px 0px;
+}
+
+.img_item img {
+    max-width: 100%;
+}
+
+.bottom {
+    padding: 0px 45px;
+}
+
+.bottom_text {
+
+
+    color: #919699;
+    font-family: "Times New Roman PSMT";
+    font-size: 24px;
+
+    line-height: 40px;
+    margin: 0px 0px 48px 0px;
+}
+
+.bottom_text p {
+    margin-bottom: 40px;
+}
+
+
+.bottom_info {
+}
+
+.bottom_list {
+}
+
+.bottom_list li {
+    font-family: "Arial MT";
+    font-size: 20px;
+    margin-bottom: 16px;
+    background: url(images/check_icon.png) left no-repeat;
+    padding-left: 35px;
+}
+
+.bottom_list li:nth-child(1) {
+
+
+    text-shadow: 0 1px 0 rgba(0, 0, 0, 0.3);
+    color: #273d46;
+}
+
+.bottom_list li:nth-child(2) {
+
+
+    color: #80b7b3;
+
+
+}
+
+.bottom_list li:nth-child(3) {
+
+
+    color: #273d46;
+
+    font-weight: bold;
+
+
+}
+
+.bottom_list li:nth-child(4) {
+
+    color: #c6cacc;
+
+
+    text-decoration: line-through;
+}
+
+
+.bottom-link {
+    display: inline-block;
+    height: 44px;
+    box-shadow: 0 6px 40px rgba(128, 183, 179, 0.54);
+    background-color: #80b7b3;
+    padding: 17px 30px;
+    border-radius: 18px;
+
+
+    color: #ffffff;
+    font-family: "Arial MT";
+    font-size: 14px;
+    font-weight: 400;
+
+    text-transform: uppercase;
+
+    letter-spacing: 2.8px;
+
+}
+
+.bottom-link span {
+    background: url(images/Shape_2.svg) right no-repeat;
+    padding-right: 30px;
+}
