@@ -114,8 +114,7 @@ body {
 }
 
 
-.content_img {
-}
+
 
 .img_item {
     box-shadow: 0 15px 65px rgba(15, 16, 16, 0.15);
@@ -148,11 +147,9 @@ body {
 }
 
 
-.bottom_info {
-}
 
-.bottom_list {
-}
+
+
 
 .bottom_list li {
     font-family: "Arial MT";
@@ -214,6 +211,10 @@ body {
 
     letter-spacing: 2.8px;
 
+}
+
+.bottom-link:hover{
+    background-color: brown;
 }
 
 .bottom-link span {
